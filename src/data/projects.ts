@@ -80,7 +80,7 @@ const projects: IProjectItem[] = [
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/sudo-verse/portfolio-website",
-    url: "https://sudo-verse.github.io/portfolio-website/",
+    url: "https://portfolio-webiste-gilt.vercel.app/",
     tags: ["Next.js", "Sass", "Web Development"],
   },
   {
