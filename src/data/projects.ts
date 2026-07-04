@@ -2,6 +2,42 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
+    id: "esports-club-website",
+    title: "NIT SILCHAR eSports Club",
+    description:
+      "Official esports management platform for NIT Silchar for 1000+ students. Features real-time data, Cashfree payment integration, and responsive UI.",
+    icon: "/skills/react.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.JobWork,
+    githubUrl: "https://github.com/nitsesports/nitsesports",
+    url: "https://www.nitsesports.in/",
+    tags: ["React", "NodeJS", "ExpressJS", "Supabase", "Cashfree"],
+  },
+  {
+    id: "finverse",
+    title: "Finverse — AI Stock Research",
+    description:
+      "AI-powered equity research assistant using Google Gemini API and RAG. Features hybrid search pipeline, real-time sentiment analysis, and responsive dashboard.",
+    icon: "/skills/python.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/sudo-verse/finverse",
+    url: "https://finverse-henna.vercel.app/",
+    tags: ["Google Gemini API", "RAG", "ChromaDB", "React", "Recharts"],
+  },
+  {
+    id: "campusverse",
+    title: "CampusVerse",
+    description:
+      "Scalable full-stack social networking platform with real-time chat, AWS EC2 deployment, and CI/CD via GitHub Actions.",
+    icon: "/skills/nextjs.png",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/sudo-verse/campus_verse_backend",
+    url: "https://13.201.97.80/",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "AWS"],
+  },
+  {
     id: "skycast-weather-app",
     title: "SkyCast",
     description:

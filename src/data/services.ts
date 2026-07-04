@@ -45,18 +45,18 @@ const services: IServiceItem[] = [
   },
   {
     id: 4,
-    title: "Product Strategy",
+    title: "AI Engineering",
     icons: [
-      "/skills/git.svg",
-      "/images/collaboration.png",
+      "/skills/python.svg",
       "/images/logical-thinking.png",
       "/images/analytical-skills.png",
       "/skills/ubuntu.png",
+      "/skills/git.svg",
     ],
     shortDescription:
-      "I define goals, target audiences, and a roadmap for success.",
+      "I develop intelligent AI-powered applications and scalable solutions.",
     description:
-      "I help shape product direction by aligning technical feasibility with user needs and business goals. From ideation to roadmap planning, I combine logical thinking and engineering discipline to ensure your product is impactful and scalable from day one.",
+      "I develop intelligent AI-powered applications using Large Language Models (LLMs), AI agents, Retrieval-Augmented Generation (RAG), and modern AI frameworks. From chatbots and workflow automation to custom AI solutions, I build scalable, secure, and production-ready systems that deliver reliable performance, seamless user experiences, and real business value.",
   },
   {
     id: 5,

@@ -19,6 +19,16 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/javascript.svg",
       },
+      {
+        title: "Python",
+        level: SkillLevel.Expert,
+        icon: "/skills/python.svg",
+      },
+      {
+        title: "SQL",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/mysql.svg",
+      },
     ],
   },
   {
@@ -68,6 +78,26 @@ const skills: ISkillListItem[] = [
         title: "Socket.io",
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
+      },
+    ],
+  },
+  {
+    title: "Machine Learning & AI",
+    items: [
+      {
+        title: "LLMs & RAG",
+        level: SkillLevel.Intermediate,
+        icon: "/images/logical-thinking.png",
+      },
+      {
+        title: "Prompt Engineering",
+        level: SkillLevel.Expert,
+        icon: "/images/analytical-skills.png",
+      },
+      {
+        title: "Pandas & NumPy",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/python.svg",
       },
     ],
   },
